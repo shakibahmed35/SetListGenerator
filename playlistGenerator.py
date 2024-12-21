@@ -13,15 +13,10 @@ REDIRECT_URL = os.getenv('SPOTIPY_REDIRECT_URL')
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
                                                client_secret=CLIENT_SECRET,
                                                redirect_uri=REDIRECT_URL,
-                                               scope="user-library-read"))
+                                               scope="playlist-modify-public"))
 
-taylor_uri = 'spotify:artist:06HL4z0CvFAxyc27GXpf02'
+user_profile = sp.current_user()
+user_id = user_profile['id']  # This gives the user's Spotify ID
 
-results = sp.artist_albums(taylor_uri, album_type='album')
-albums = results['items']
-while results['next']:
-    results = sp.next(results)
-    albums.extend(results['items'])
 
-for album in albums:
-    print(album['name'])
+sp.user_playlist_create(user_id, "test", public=True, collaborative=False, description='Testing the spotipy api')
