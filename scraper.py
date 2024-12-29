@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-url = input("Please Give URL of the Setlist from Setlist.fm")  
+url = input("Please Give URL of the Setlist from Setlist.fm: ")  
 response = requests.get(url)
 html_content = response.text
 
