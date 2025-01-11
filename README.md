@@ -11,7 +11,7 @@ An in-depth paragraph about your project and overview of use.
 ### Dependencies
 
 * All Necessary files are in the environment.yml
-*
+* Core Dependencies
 ** BeautifulSoup
 ** Spotipy
 
