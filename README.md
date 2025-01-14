@@ -1,10 +1,6 @@
 # Setlist Generator
 
-Simple overview of use/purpose.
-
-## Description
-
-An in-depth paragraph about your project and overview of use.
+* This program retrieves a setlist from Setlist.fm and automatically creates a corresponding playlist on Spotify.
 
 ## Getting Started
 
@@ -12,8 +8,8 @@ An in-depth paragraph about your project and overview of use.
 
 * All Necessary files are in the environment.yml
 * Core Dependencies
-** BeautifulSoup
-** Spotipy
+    * BeautifulSoup
+    * Spotipy
 
 ### Installing
 
@@ -22,11 +18,11 @@ An in-depth paragraph about your project and overview of use.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* To execute this program run the file playlistGenerator.py
+* After find the Set in which you are attending on Setlist.fm and paste that link
+* Then just type the artists name in and now there will be a playlist uploaded to spotify with the corresponding songs
+* It will then give a list of all the songs in the Setlist and whether it was added to playlist or not found to add
+
 
 ## Help
 
@@ -39,20 +35,18 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+* Shayaan Ahmed  
+[@Shaydoge](https://github.com/Shaydoge)
+
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
+* 1.0
     * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is unlicensed - see the license.txt file for details
 
 ## Acknowledgments
 
