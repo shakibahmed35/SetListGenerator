@@ -13,8 +13,12 @@
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Install all necessary dependencies
+* You will need to create a .env file containing you spotipy credentials
+    * Enter the spotify developer page and log into your account
+    * Open the project and open settings
+    * Here you will need your client id, client secret and redirect url
+    * store these in a .env file with the corresponding names
 
 ### Executing program
 
@@ -26,10 +30,7 @@
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+For major issues reference the spotipy documentation
 
 ## Authors
 
@@ -37,7 +38,7 @@ Contributors names and contact info
 
 * Shayaan Ahmed  
 [@Shaydoge](https://github.com/Shaydoge)
-
+[@shakibahmed35](https://github.com/shakibahmed35)
 
 ## Version History
 
@@ -52,7 +53,5 @@ This project is unlicensed - see the license.txt file for details
 
 Inspiration, code snippets, etc.
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [setlist.fm](https://www.setlist.fm/)
+* [spotipy](https://spotipy.readthedocs.io/en/2.24.0/index.html#)
