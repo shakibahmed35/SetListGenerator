@@ -14,6 +14,7 @@
 ### Installing
 
 * Install all necessary dependencies
+    * Use conda to create an environment and use the provided yml
 * You will need to create a .env file containing you spotipy credentials
     * Enter the spotify developer page and log into your account
     * Open the project and open settings
@@ -23,9 +24,9 @@
 ### Executing program
 
 * To execute this program run the file playlistGenerator.py
-* After find the Set in which you are attending on Setlist.fm and paste that link
-* Then just type the artists name in and now there will be a playlist uploaded to spotify with the corresponding songs
-* It will then give a list of all the songs in the Setlist and whether it was added to playlist or not found to add
+* The program will prompt you for a setlist link. Find a set list on setlist.fm 
+* The program will now prompt for an artists name. Please enter it as it appears on spotify.
+* At conclustion, the program will output songs it did not find, and the corresponding spotify account will have a new playlist
 
 
 ## Help
@@ -38,6 +39,7 @@ Contributors names and contact info
 
 * Shayaan Ahmed  
 [@Shaydoge](https://github.com/Shaydoge)
+* Shakib Ahmed
 [@shakibahmed35](https://github.com/shakibahmed35)
 
 ## Version History
